@@ -22,7 +22,7 @@ public class App
     private final static int autoPageSize = 100 * 1024 * 1024;
 
     public static void main(String[] args) {
-        String mainFilePath = System.getProperty("user.dir");
+        String mainFilePath = "D:\\Desktop\\Test";
 
         Scanner scan = new Scanner(System.in);
         System.out.println("是否分页转换，分页请输入Y，否则任意输入（超过100M分页才会有效）：");
